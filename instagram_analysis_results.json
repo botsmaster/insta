@@ -1,0 +1,33 @@
+{
+  "media_urls": [],
+  "api_responses": [
+    {
+      "url": "https://www.instagram.com/api/graphql",
+      "body_preview": "{\"data\":{\"experiments\":[{\"id\":\"ig_optimize_dialogs_launch\",\"param\":null,\"value\":\"true\"}]},\"extensions\":{\"server_metadata\":{\"request_start_time_ms\":1756841761357,\"time_at_flush_ms\":1756841761372},\"is_final\":true}}"
+    },
+    {
+      "url": "https://www.instagram.com/api/graphql",
+      "body_preview": "{\"data\":{\"experiments\":[{\"id\":\"ig_desktop_dynamic_interaction_dialogs_launch\",\"param\":null,\"value\":\"true\"}]},\"extensions\":{\"server_metadata\":{\"request_start_time_ms\":1756841761358,\"time_at_flush_ms\":1756841761372},\"is_final\":true}}"
+    },
+    {
+      "url": "https://www.instagram.com/api/graphql",
+      "body_preview": "{\"data\":{\"experiments\":[]},\"extensions\":{\"server_metadata\":{\"request_start_time_ms\":1756841761410,\"time_at_flush_ms\":1756841761426},\"is_final\":true}}"
+    },
+    {
+      "url": "https://www.instagram.com/api/graphql",
+      "body_preview": "{\"data\":{\"experiments\":[{\"id\":\"ig_web_desktop_dismiss_based_landing_dialog\",\"param\":null,\"value\":\"true\"}]},\"extensions\":{\"server_metadata\":{\"request_start_time_ms\":1756841761482,\"time_at_flush_ms\":1756841761493},\"is_final\":true}}"
+    },
+    {
+      "url": "https://www.instagram.com/graphql/query",
+      "body_preview": "{\"data\":{},\"extensions\":{\"is_final\":true,\"server_metadata\":{\"request_start_time_ms\":1756841761503,\"time_at_flush_ms\":1756841761538}},\"status\":\"ok\"}"
+    },
+    {
+      "url": "https://www.instagram.com/api/graphql",
+      "body_preview": "{\"errors\":[{\"message\":\"Unauthorized logged out query.\",\"severity\":\"CRITICAL\",\"code\":1675002}],\"extensions\":{\"is_final\":true}}"
+    },
+    {
+      "url": "https://www.instagram.com/graphql/query/?doc_id=7950326061742207&variables=%7B%22id%22%3A%2245972183783%22%2C%22include_clips_attribution_info%22%3Afalse%2C%22first%22%3A12%7D",
+      "body_preview": "{\"data\":{\"user\":{\"edge_owner_to_timeline_media\":{\"count\":5237,\"page_info\":{\"has_next_page\":true,\"end_cursor\":\"QVFDS0VZUVB6VzB5U3ZJZlQyM1ZhRlZpNV9BQ0JpNHIwVWNyQS1KTnVuNUNRTDVBR0JGNmNGV3hBOGNkZE4xeERZUXk3Ulh2Vk9obWVBcnA3c0tIQ0lCWA==\"},\"edges\":[{\"node\":{\"__typename\":\"GraphVideo\",\"id\":\"3712922762621832245\",\"gating_info\":null,\"fact_check_overall_rating\":null,\"fact_check_information\":null,\"media_overlay_info\":null,\"sensitivity_friction_info\":null,\"sharing_friction_info\":{\"should_have_sharing_friction\""
+    }
+  ]
+}
